@@ -24,7 +24,7 @@ https://magenta.tensorflow.org/demos#community-contrib
 
 
 
-1. 1 Beat Blender 
+## 1 Beat Blender ##
 •	demo
 https://g.co/beatblender
 •	blog
