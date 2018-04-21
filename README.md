@@ -36,7 +36,7 @@ Kyle Phillips ( Github: hapticdata , Twitter: hapticdata )
  
 这是谷歌Creative Lab基于MusicVAE用MusicVAE.js API实现的一个交互demo。你可以使用它来生成鼓点的二维调色板，并通过latent空间绘制路径以创建不断变化的节拍。四个角可以手动编辑，替换为预设，或从latent空间采样以重新生成调色板。
 
-![]https://mmbiz.qpic.cn/mmbiz_gif/bicdMLzImlibRTF49VZ09raObibNgTTcAnBBBj1icJCa9Bh2SRs0hhu6AvqzfDiaAtIV3neAakiaYFI0gVOlcu37noibA/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1
+![](https://mmbiz.qpic.cn/mmbiz_gif/bicdMLzImlibRTF49VZ09raObibNgTTcAnBBBj1icJCa9Bh2SRs0hhu6AvqzfDiaAtIV3neAakiaYFI0gVOlcu37noibA/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1)
 ## 2. Latent Loops ##
 •	demo 
 https://goo.gl/magenta/latent-loops
