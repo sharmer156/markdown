@@ -36,7 +36,7 @@ Kyle Phillips ( Github: hapticdata , Twitter: hapticdata )
  
 这是谷歌Creative Lab基于MusicVAE用MusicVAE.js API实现的一个交互demo。你可以使用它来生成鼓点的二维调色板，并通过latent空间绘制路径以创建不断变化的节拍。四个角可以手动编辑，替换为预设，或从latent空间采样以重新生成调色板。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/bicdMLzImlibRTF49VZ09raObibNgTTcAnBBBj1icJCa9Bh2SRs0hhu6AvqzfDiaAtIV3neAakiaYFI0gVOlcu37noibA/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1)
+![](https://mmbiz.qpic.cn/mmbiz_gif/bicdMLzImlibRTF49VZ09raObibNgTTcAnBfTKViazhRWzsN5twpgJdotwp4ibdtG5hZgOVPb9iarUP6bYibUKqdwIxpg/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1)
 ## 2. Latent Loops ##
 •	demo 
 https://goo.gl/magenta/latent-loops
@@ -48,6 +48,8 @@ Harold Cooper ( Github:  hrldcpr )
  
 这是谷歌的Pie Shop基于MusicVAE用MusicVAE.js API实现的一个交互demo。Latent Loops可以让你在一个由不同音阶组成的方阵里挑选曲子并生成循环的曲子，再用这些生成一个更长的曲子。搞音乐的人可以用这个界面创建一个完整的曲子并轻松地将它挪到他们自己的数字音乐工作站中。
 
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/bicdMLzImlibRTF49VZ09raObibNgTTcAnBBBj1icJCa9Bh2SRs0hhu6AvqzfDiaAtIV3neAakiaYFI0gVOlcu37noibA/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1)
 ##  3. Melody Mixer ##
 •	demo 
 https://g.co/melodymixer
@@ -59,6 +61,7 @@ Torin Blankensmith ( Github:  torinmb , Twitter: tBlankensmith )
 Kyle Phillips ( Github:  hapticdata , Twitter: hapticdata )
  
 这个demo是由谷歌Creative Lab基于MusicVAE用MusicVAE.js API创建的。它能让你轻松生成两小段曲子之间的过渡音乐。
+![](https://mmbiz.qpic.cn/mmbiz_gif/bicdMLzImlibRTF49VZ09raObibNgTTcAnBgF4A5iaRuYib1S3SCbcuSiaTzbUrqOrRCSTlRsuo2BKTX4MUm8JeL3ZeQ/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1)
 ## 4. PerformanceRNN ##
 •	demo
 https://goo.gl/magenta/performancernn-demo
@@ -71,6 +74,7 @@ Nikhil Thorat ( Github: nsthorat , Twitter: nsthorat )
  
 PerformanceRNN可以在浏览器里实时演奏钢琴，他是用TensorFlow.js开发的。
 ## 
+![](https://mmbiz.qpic.cn/mmbiz_gif/bicdMLzImlibRTF49VZ09raObibNgTTcAnBBJIUoM8IY3vxiamUYgWBQicuosuaCbVjFeJLqO2btibVHnX26at5HIqcA/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1)
 5. SketchRNN ##
 •	demo
 https://magenta.tensorflow.org/assets/sketch_rnn_demo/index.html
