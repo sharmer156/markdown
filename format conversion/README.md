@@ -28,7 +28,7 @@ reids ~
 ``` 
 ```python （换行） 接语言代码```
 ```
-
+ps:
 ```Bash
 python -m visdom.server
 ```
