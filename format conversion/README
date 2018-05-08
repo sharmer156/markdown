@@ -1,17 +1,17 @@
-#format conversion#
+# format conversion #
 
-格式转换
+# 格式转换 #
 ===========================
 其他格式转换成MD的
 
-## 环境依赖 ##
+## ## 环境依赖 ## ##
 1.操作系统
 node v0.10.28+
 reids ~
 2.依赖
 3.其他软硬件要求
 
-## 部署步骤 ##
+## ## 部署步骤 ## ##
 1. 添加系统环境变量
     export $PORTAL_VERSION="production" // production, test, dev
 
@@ -31,7 +31,7 @@ reids ~
 python -m visdom.server
 ```
 
-## 目录结构描述 ##
+## ## 目录结构描述 ## ##
 
 ----------
 
@@ -63,7 +63,7 @@ python -m visdom.server
 
 
 
-## V1.0.0 版本内容更新 ##（仅列出重要更新)
+## ## V1.0.0 版本内容更新 ##（仅列出重要更新) ##
 1. 新功能	 aaaaaaaaa
 2. 新功能	 bbbbbbbbb
 3. 新功能	 ccccccccc
