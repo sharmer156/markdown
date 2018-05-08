@@ -25,8 +25,10 @@ reids ~
        forever start logger-service.js
 
 采用何种语言
-``` ```python （换行） 接语言代码``` ```
-
+``` 
+```python （换行） 接语言代码```
+```
+ps:
 ```Bash
 python -m visdom.server
 ```
