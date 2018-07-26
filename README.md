@@ -27,7 +27,9 @@ reids ~
 
 ## 目录结构描述 ##
 ├── Readme.md                   // help
+
 ├── app                         // 应用
+
 ├── config                      // 配置
 │   ├── default.json
 │   ├── dev.json                // 开发环境
