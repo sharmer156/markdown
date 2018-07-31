@@ -129,20 +129,26 @@ _这是文字斜体格式_
 ## 水平线
 ```markdown
 ***
+----------
 ```
 ## 表格
-```markdown
+```markdown（github无法使用）
 First Header  | Second Header
 ------------- | -------------
 Content Cell  | Content Cell
 Content Cell  | Content Cell
 ```
 
+## 表格
+```markdown
+    markdown
+```
 
 ## V1.0.0 版本内容更新 ##（仅列出重要更新)
 1. 新功能	 aaaaaaaaa
 2. 新功能	 bbbbbbbbb
 3. 新功能	 ccccccccc
 4. 新功能	 ddddddddd
+
 
 
