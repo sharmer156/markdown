@@ -9,3 +9,12 @@
   }
 
 })();
+
+{
+    "plugins": ["disqus"],
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "introducetogitbook"
+        }
+    }  
+}
