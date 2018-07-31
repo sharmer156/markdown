@@ -130,6 +130,14 @@ _这是文字斜体格式_
 ```markdown
 ***
 ```
+## 表格
+```markdown
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+```
+
 
 ## V1.0.0 版本内容更新 ##（仅列出重要更新)
 1. 新功能	 aaaaaaaaa
