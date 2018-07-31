@@ -1,0 +1,19 @@
+# 大面积及多条链接的处理
+
+## 常用
+   [花瓣网](http://huaban.com/favorite/web_app_icon/?md=bdwzshejidaren)
+    *   [站酷](http://zcool.com.cn/)
+    *   [包图网](http://ibaotu.com/tupian/haibao.html?spm=shejidaren)
+    *   [Designer News](https://www.designernews.co/)
+    *   [iStock中国](http://www.veer.com/?utm_source=shejidaren&utm_medium=leftbanner&chid=8191)
+    *   [Awwwards](http://www.awwwards.com/)
+    *   [abduzeedo](http://abduzeedo.com/)
+  网站和博客中多页面的链接，比较适用的链接类型，效果如下
+![](https://i.imgur.com/fRI8PCx.jpg)
+![](https://i.imgur.com/zBrH5GX.jpg)
+
+理想的加说明的链接类型，效果如下：（鼠标停留就能显示链接网址的具体说明内容）
+[Easy icon](http://easyicon.net "图标搜索引擎(中英)")
+* [Icon Finder](http://www.iconfinder.com "图标搜索引擎(英)")
+
+* [Logo EPS](http://www.logoeps.com "可以免费下载矢量LOGO模板的网站")

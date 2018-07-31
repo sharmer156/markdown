@@ -1,0 +1,129 @@
+
+<div id="home"> <!--end: header 头部 -->
+
+<div id="main">
+  <div id="mainContent">
+	<div class="forFlow">
+		
+<div id="post_detail">
+<!--done-->
+<div id="topics">
+	<div class="post">
+		<h1 class="postTitle">
+			<a id="cb_post_title_url" class="postTitle2" href="http://www.cnblogs.com/manyiString/p/6803071.html">原来Github上的README.md文件这么有意思——Markdown语言详解</a>
+		</h1>
+		<div class="clear"></div>
+		<div class="postBody">
+			<div id="cnblogs_post_body" class="blogpost-body"><p>&nbsp;转载请注明出处：<a href="http://blog.csdn.net/zhaokaiqiang1992" target="_blank">http://blog.csdn.net/zhaokaiqiang1992</a></p>
+<p>&nbsp;</p>
+<p>之前一直在使用github，也在上面分享了不少的项目和Demo，每次创建新项目的时候，使用的都是默认的README.md文件，也不曾对这个文件有过什么了解。但是在看到别人写的项目的README.md里面竟然有图片、链接什么的，就感到很好奇，这效果是什么加上去的？于是便查了一下资料，结果，竟迁出了一门从来没有了解过的语言— —Markdown！</p>
+<p>&nbsp; &nbsp; github上的README.md文件就是使用的Markdown语言编写的，我们先简单介绍下这门语言的来龙去脉，然后再介绍一些基本的语法和使用。</p>
+<p>&nbsp;</p>
+<h1>&nbsp; &nbsp; 1.来龙去脉和语法特点</h1>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Markdown 是一种轻量级标记语言，创始人为约翰·格鲁伯（John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML(或者HTML)文档”。这种语言吸收了很多在电子邮件中已有的纯文本标记的特性。</p>
+<p>&nbsp;</p>
+<p>&nbsp; &nbsp;Markdown 的目标是实现「易读易写」。可读性，无论如何，都是最重要的。一份使用 Markdown 格式撰写的文件应该可以直接以纯文本发布，并且看起来不会像是由许多标签或是格式指令所构成。Markdown 语法受到一些既有 text-to-HTML 格式的影响，包括Setext、atx、Textile、reStructuredText、Grutatext 和 EtText，而最大灵感来源其实是纯文本电子邮件的格式。总之， Markdown 的语法全由一些符号所组成，这些符号经过精挑细选，其作用一目了然。比如：在文字两旁加上星号，看起来就像*强调*。Markdown 的列表看起来，嗯，就是列表。Markdown 的区块引用看起来就真的像是引用一段文字，就像你曾在电子邮件中见过的那样。</p>
+<p><br>&nbsp; &nbsp; Markdown 语法的目标是：成为一种适用于网络的书写语言。Markdown 不是想要取代 HTML，甚至也没有要和它相近，它的语法种类很少，只对应 HTML 标记的一小部分。Markdown 的构想不是要使得 HTML 文档更容易书写。在我看来， HTML 已经很容易写了。Markdown 的理念是，能让文档更容易读、写和随意改。HTML 是一种发布的格式，Markdown 是一种书写的格式。就这样，Markdown 的格式语法只涵盖纯文本可以涵盖的范围。</p>
+<p>&nbsp;</p>
+<p>&nbsp; &nbsp; 正是因为Markdown的这些特点，而且功能比纯文本更强，因此有很多人用它写博客。世界上最流行的博客平台WordPress和大型CMS如joomla、drupal都能很好的支持Markdown。</p>
+<p>&nbsp;</p>
+<h1>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;2.编辑软件</h1>
+<div>&nbsp; &nbsp;&nbsp;如果我们要写Markdown代码的话，我们首先需要一个编辑器，因为我使用的是Mac，所以推荐使用Mou，非常的强大，非常的好用。</div>
+<div>&nbsp; &nbsp; 下面是Mou的界面，左边是Markdown代码，右边是实时的展示效果，而且可以选择不同的主题色，非常的漂亮！</div>
+<div>&nbsp;</div>
+<div><img src="./原来Github上的README.md文件这么有意思——Markdown语言详解 - 彭满意 - 博客园_files/20141121162048979" alt=""></div>
+<div>&nbsp;</div>
+<div>&nbsp;&nbsp;&nbsp; 当然，如果你使用的是其他的平台的话，你可以选择在线的编辑器，效果也非常棒。</div>
+<div>&nbsp; &nbsp; 给出两个在线的Markdown编辑器</div>
+<div>&nbsp; &nbsp;&nbsp;<a href="http://mahua.jser.me/" target="_blank">http://mahua.jser.me/</a></div>
+<div>&nbsp; &nbsp;&nbsp;<a href="http://maxiang.info/" target="_blank">http://maxiang.info/</a></div>
+<div>&nbsp; &nbsp; 第一个是个人开发的，免费使用，非常赞！</div>
+<div>&nbsp; &nbsp; 第二个是一个已经发布的产品，可以免费在线编辑。除此之外，还可以将内容同步到印象笔记，不过只能试用10天，之后需要79/年，还是非常不错的。</div>
+<div>&nbsp;</div>
+<h1>&nbsp; &nbsp; 3.常用语法介绍</h1>
+<div>&nbsp; &nbsp;&nbsp;&nbsp; 这里只介绍最常用和最常见的功能，若想查看全部的语法，请移步<a href="http://wowubuntu.com/markdown/index.html" target="_blank">http://wowubuntu.com/markdown/index.html</a></div>
+<div>（1）标题</div>
+<div>&nbsp; &nbsp; 标题使用不同数量的"#"来标识是什么层级，可以对应于HTML里面的H1-H6，下面是示例代码和效果</div>
+<div>&nbsp;</div>
+<div><img src="./原来Github上的README.md文件这么有意思——Markdown语言详解 - 彭满意 - 博客园_files/20141121163201450" alt=""></div>
+<div>&nbsp;</div>
+<div>&nbsp; &nbsp; “========”风格的也可以，但是我不喜欢，赶不上"#"的好用</div>
+<div>&nbsp;</div>
+<div>&nbsp; &nbsp;（2）图片</div>
+<div>&nbsp; &nbsp; 我们可以使用下面的语法，添加一个图片</div>
+<div>&nbsp; &nbsp; ![Alt text](/path/to/img.jpg)</div>
+<div>&nbsp; &nbsp; 详细叙述如下：<br>&nbsp; &nbsp; 一个惊叹号 !<br>&nbsp; &nbsp; 接着一个方括号，里面放上图片的替代文字<br>&nbsp; &nbsp; 接着一个普通括号，里面放上图片的网址</div>
+<div>&nbsp;</div>
+<div>&nbsp; &nbsp; 下面是一个示例</div>
+<div><img src="./原来Github上的README.md文件这么有意思——Markdown语言详解 - 彭满意 - 博客园_files/20141121163821625" alt=""></div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp; &nbsp; （3）强调</div>
+<div>&nbsp; &nbsp; 我们可以使用下面的方式给我们的文本添加强调的效果</div>
+<div>&nbsp;</div>
+<div>*强调* 或者 _强调_ &nbsp;(示例：斜体)<br>**加重强调** 或者 __加重强调__ (示例：粗体)<br>***特别强调*** 或者 ___特别强调___ (示例：粗斜体)</div>
+<div>&nbsp;</div>
+<div>&nbsp; &nbsp; 下面是一个示例：</div>
+<div>&nbsp;</div>
+<div><img src="./原来Github上的README.md文件这么有意思——Markdown语言详解 - 彭满意 - 博客园_files/20141121164141381" alt=""></div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp; &nbsp;&nbsp;（4）代码</div>
+<div>&nbsp; &nbsp; 如果我们想在文章中添加代码，我们有两种方式</div>
+<div>&nbsp; &nbsp; 第一种方式是使用反引号(esc键下面的按钮)将代码包裹起来</div>
+<div>&nbsp; &nbsp; 下面是一个示例代码</div>
+<div>&nbsp;</div>
+<div><img src="./原来Github上的README.md文件这么有意思——Markdown语言详解 - 彭满意 - 博客园_files/20141121165433515" alt=""></div>
+<div>&nbsp;</div>
+<div>&nbsp; &nbsp; 第二种方式则是使用制表符或者至少4个空格进行缩进的行</div>
+<div>&nbsp; &nbsp; 下面是一个示例代码</div>
+<div>&nbsp;</div>
+<div><img src="./原来Github上的README.md文件这么有意思——Markdown语言详解 - 彭满意 - 博客园_files/20141121165602671" alt=""></div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp; &nbsp; （5）换行</div>
+<div>&nbsp; &nbsp; 如果我们想把一行文本进行换行，我们可以在需要换行的地方输入至少两个空格，然后回车即可，注意，如果不回车，是没有效果的，就像下面这样</div>
+<div>&nbsp;</div>
+<div><img src="./原来Github上的README.md文件这么有意思——Markdown语言详解 - 彭满意 - 博客园_files/20141121170040687" alt=""></div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp; &nbsp;（6）引用</div>
+<div>&nbsp; &nbsp;如果我们在文章中引用了资料，那么我们可以通过一个右尖括号"&gt;"来表示这是一段引用内容。我们可以在开头加一个，也可以在每一行的前面都加一个。我们还可以在引用里面嵌套其他的引用，下面是一个示例：</div>
+<div>&nbsp;</div>
+<div><img src="./原来Github上的README.md文件这么有意思——Markdown语言详解 - 彭满意 - 博客园_files/20141121170507567" alt=""></div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>（7）链接</div>
+<div>&nbsp; &nbsp; 如果我们文章中加入一个链接，那么我们通过下面的方式添加</div>
+<div>[链接文字](链接地址)<br>例子： [Markdown](http://blog.csdn.net/zhaokaiqiang1992)</div>
+<div>&nbsp;</div>
+<div><img src="./原来Github上的README.md文件这么有意思——Markdown语言详解 - 彭满意 - 博客园_files/20141121170908609" alt=""></div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp; &nbsp; （8）分割线</div>
+<div>&nbsp; &nbsp; 如果我们想用分割线对内容进行分割，我们可以在单独一行里输入3个或以上的短横线、星号或者下划线实现。短横线和星号之间可以输入任意空格。以下每一行都产生一条水平分割线。</div>
+<div>&nbsp;</div>
+<div><img src="./原来Github上的README.md文件这么有意思——Markdown语言详解 - 彭满意 - 博客园_files/20141121171114184" alt=""></div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp; &nbsp; （9）列表标记</div>
+<div>&nbsp; &nbsp; 如果我们的内容需要进行标记，那么我们可以使用下面的方式</div>
+<div><img src="./原来Github上的README.md文件这么有意思——Markdown语言详解 - 彭满意 - 博客园_files/20141121171601583" alt=""></div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp; &nbsp; 好了，这些东西完全够用了，休息，休息一下...</div></div><div id="MySignature"></div>
+<div class="clear"></div>
+</div>
+</div>
+	<script type="text/javascript">var allowComments=true,cb_blogId=104711,cb_entryId=6803071,cb_blogApp=currentBlogApp,cb_blogUserGuid='77112d91-6e25-e111-b422-842b2b196315',cb_entryCreatedDate='2017/5/3 17:40:00';loadViewCount(cb_entryId);var cb_postType=1;</script>
+	
+</div><!--end: topics 文章、评论容器-->
+</div><a name="!comments"></a><script type="text/javascript">var commentManager = new blogCommentManager();commentManager.renderComments(0);</script>
+</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<!--end: main -->
+  <div class="clear"></div>
+<!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
