@@ -17,3 +17,10 @@
 * [Icon Finder](http://www.iconfinder.com "图标搜索引擎(英)")
 
 * [Logo EPS](http://www.logoeps.com "可以免费下载矢量LOGO模板的网站")
+
+文末附加型
+
+[说明][1]
+
+在文章最后
+[1]:https://github.com/suziwen/blogxiaoshujiang/blob/master/2018-6-22%20%E6%80%9D%E7%BB%B4%E8%84%91%E5%9B%BE%E8%AF%AD%E6%B3%95%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md
