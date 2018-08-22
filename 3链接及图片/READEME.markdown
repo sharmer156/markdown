@@ -1,8 +1,4 @@
-
-
-
 # markdown语法之如何插入图片
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 * [markdown语法之如何插入图片](#markdown语法之如何插入图片)
 	* [大面积及多条链接的处理](#大面积及多条链接的处理)
 		* [常用](#常用)
@@ -22,8 +18,8 @@
 * [jupyter中插入图片时的经验](#jupyter中插入图片时的经验)
 * [youtube 视频链接](#youtube-视频链接)
 
-## 大面积及多条链接的处理
 
+## 大面积及多条链接的处理
 ### 常用
    [花瓣网](http://huaban.com/favorite/web_app_icon/?md=bdwzshejidaren)
     *   [站酷](http://zcool.com.cn/)
@@ -51,25 +47,7 @@
 
 
 
-## 目录
-
-*   [图片上传方式](https://blog.csdn.net/geekleee/article/details/73018194#upload) 
-
-    *   [插入在线图片](https://blog.csdn.net/geekleee/article/details/73018194#online)
-    *   [插入本地图片](https://blog.csdn.net/geekleee/article/details/73018194#local)
-*   [图片链接方式](https://blog.csdn.net/geekleee/article/details/73018194#link) 
-
-    *   [行内式图片链接](https://blog.csdn.net/geekleee/article/details/73018194#inline)
-    *   [参考式图片链接](https://blog.csdn.net/geekleee/article/details/73018194#reference)
-*   [几个问题探讨](https://blog.csdn.net/geekleee/article/details/73018194#questions) 
-
-    *   [问题1：图片上传和图片链接两种方式的区别](https://blog.csdn.net/geekleee/article/details/73018194#question1)
-    *   [问题2：Markdown中如何指定图片的高和宽？](https://blog.csdn.net/geekleee/article/details/73018194#question2)
-    *   [问题3：Markdown中如何指定图片的对齐方式？](https://blog.csdn.net/geekleee/article/details/73018194#question3)
-
-## 正文
-
-在CSDN Markdown编辑器中插入图片有两种方式：
+在Markdown编辑器中插入图片有两种方式：
 
 *   使用工具栏上的图片上传功能
 
@@ -280,21 +258,27 @@ Markdown使用一种和「[普通文本链接](http://blog.csdn.net/lanxuezaipia
 
 # jupyter中插入图片时的经验
 
+**效果：**
 ![day01](Info-graphs/Day1.jpg) <!-- 说明 图片中不要含有空格 -->
 ![day02](Info-graphs/Day%202.jpg)  <!--  说明 图片名称中尽量有空格，如果有空格使用%20代替 -->
-![Data Science Venn Diagram](figures/Data_Science_VD.png)\n
-<!-- ![Day%201.jpg](attachment:Day%201.jpg) --> <!--  说明 jupyter中 insert image相当于直接添加了附件会增加文件的大小（带附件的ipynb文件在github中可能无法读取图片而且无法在线编辑，使用markdown的隐藏代码或删除后，恢复正常>
+![Data Science Venn Diagram](figures/Data_Science_VD.png)
+<!-- ![Day%201.jpg](attachment:Day%201.jpg) --> <!--  说明 jupyter中 insert image相当于直接添加了附件会增加文件的大小（带附件的ipynb文件在github中可能无法读取图片而且无法在线编辑，使用markdown的隐藏代码或删除后，恢复正常-->
 
-**代码
-
+**代码：**
 ```markdown
 ![day01](Info-graphs/Day1.jpg) <!-- 说明 图片中不要含有空格 -->
 ![day02](Info-graphs/Day%202.jpg)  <!--  说明 图片名称中尽量有空格，如果有空格使用%20代替 -->
 ![Data Science Venn Diagram](figures/Data_Science_VD.png)\n
 <!-- ![Day%201.jpg](attachment:Day%201.jpg) --> <!--  说明 jupyter中 insert image相当于直接添加了附件会增加文件的大小（带附件的ipynb文件在github中可能无法读取图片而且无法在线编辑，使用markdown的隐藏代码或删除后，恢复正常>
-
 ```
 
-
 # youtube 视频链接
+**效果：**
+
 <a href="https://www.youtube.com/watch?v=hUnRCxnydCc" target="_blank"><img src="https://raw.githubusercontent.com/marcotcr/lime/master/doc/images/video_screenshot.png" alt="KDD promo video"/>
+
+**代码：**
+
+```markdown
+<a href="https://www.youtube.com/watch?v=hUnRCxnydCc" target="_blank"><img src="https://raw.githubusercontent.com/marcotcr/lime/master/doc/images/video_screenshot.png" alt="KDD promo video"/>
+```
