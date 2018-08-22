@@ -286,15 +286,15 @@ Markdown使用一种和「[普通文本链接](http://blog.csdn.net/lanxuezaipia
 <!-- ![Day%201.jpg](attachment:Day%201.jpg) --> <!--  说明 jupyter中 insert image相当于直接添加了附件会增加文件的大小（带附件的ipynb文件在github中可能无法读取图片而且无法在线编辑，使用markdown的隐藏代码或删除后，恢复正常>
 
 **代码
-```
 
+```markdown
 ![day01](Info-graphs/Day1.jpg) <!-- 说明 图片中不要含有空格 -->
 ![day02](Info-graphs/Day%202.jpg)  <!--  说明 图片名称中尽量有空格，如果有空格使用%20代替 -->
 ![Data Science Venn Diagram](figures/Data_Science_VD.png)\n
 <!-- ![Day%201.jpg](attachment:Day%201.jpg) --> <!--  说明 jupyter中 insert image相当于直接添加了附件会增加文件的大小（带附件的ipynb文件在github中可能无法读取图片而且无法在线编辑，使用markdown的隐藏代码或删除后，恢复正常>
 
 ```
+
+
 # youtube 视频链接
-
-
 <a href="https://www.youtube.com/watch?v=hUnRCxnydCc" target="_blank"><img src="https://raw.githubusercontent.com/marcotcr/lime/master/doc/images/video_screenshot.png" alt="KDD promo video"/>
