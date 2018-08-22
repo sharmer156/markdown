@@ -1,4 +1,27 @@
+
+
+
 # markdown语法之如何插入图片
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+* [markdown语法之如何插入图片](#markdown语法之如何插入图片)
+	* [大面积及多条链接的处理](#大面积及多条链接的处理)
+		* [常用](#常用)
+		* [文末附加型](#文末附加型)
+	* [目录](#目录)
+	* [正文](#正文)
+	* [图片上传方式](#图片上传方式)
+	* [插入在线图片](#插入在线图片)
+	* [插入本地图片](#插入本地图片)
+	* [图片链接方式](#图片链接方式)
+		* [行内式图片链接](#行内式图片链接)
+	* [参考式图片链接](#参考式图片链接)
+	* [几个问题探讨](#几个问题探讨)
+		* [问题1：图片上传和图片链接两种方式的区别](#问题1图片上传和图片链接两种方式的区别)
+		* [问题2：Markdown中如何指定图片的高和宽？](#问题2markdown中如何指定图片的高和宽)
+		* [问题3：Markdown中如何指定图片的对齐方式？](#问题3markdown中如何指定图片的对齐方式)
+* [jupyter中插入图片时的经验](#jupyter中插入图片时的经验)
+* [youtube 视频链接](#youtube-视频链接)
+
 ## 大面积及多条链接的处理
 
 ### 常用
@@ -28,7 +51,7 @@
 
 
 
-## <a name="t1"></a>目录
+## 目录
 
 *   [图片上传方式](https://blog.csdn.net/geekleee/article/details/73018194#upload) 
 
@@ -44,7 +67,7 @@
     *   [问题2：Markdown中如何指定图片的高和宽？](https://blog.csdn.net/geekleee/article/details/73018194#question2)
     *   [问题3：Markdown中如何指定图片的对齐方式？](https://blog.csdn.net/geekleee/article/details/73018194#question3)
 
-## <a name="t2"></a>正文
+## 正文
 
 在CSDN Markdown编辑器中插入图片有两种方式：
 
@@ -54,13 +77,13 @@
 
 下面分别介绍它们的使用方法。
 
-## <a name="t3"></a>图片上传方式
+## 图片上传方式
 
 这种方式最简单，属图形化方式。大家可以很容易的在CSDN Markdown编辑器的工具栏那里找到图片上传的图标：![图片上传图标](https://img-blog.csdn.net/20150315205208680)
 
 或者直接使用快捷键Ctrl + G，会弹出一个图片上传的对话框，可以看出既可以插入网上的在线图片也可以上传本地图片插入。
 
-## <a name="t4"></a>插入在线图片
+## 插入在线图片
 
 ![图片上传图标](https://img-blog.csdn.net/20150315210818959)
 
@@ -73,7 +96,7 @@
 
 </pre>
 
-## <a name="t5"></a>插入本地图片
+## 插入本地图片
 
 对话框中切换到“上传图片”的标签后如下：
 
@@ -88,13 +111,13 @@
 
 </pre>
 
-## <a name="t6"></a>图片链接方式
+## 图片链接方式
 
 如果插入的是在线图片，即只有图片URL，那么除了上面用图形化方式操作之外，还可以使用图片链接的方式。
 
 Markdown使用一种和「[普通文本链接](http://blog.csdn.net/lanxuezaipiao/article/details/44307757#textlink)」很相似的语法来标记图片，同样也允许两种样式： **行内式**和**参考式**。
 
-### <a name="t7"></a>行内式图片链接
+### 行内式图片链接
 
 **行内式的图片链接语法如下：**
 
@@ -128,7 +151,7 @@ Markdown使用一种和「[普通文本链接](http://blog.csdn.net/lanxuezaipia
 
 ![CSDN图标](http://imgtech.gmw.cn/attachement/jpg/site2/20111223/f04da22d7ba7105e1d7507.jpg "这是CSDN的图标")
 
-## <a name="t8"></a>参考式图片链接
+## 参考式图片链接
 
 **参考式的图片链接语法则如下面这样：**
 
@@ -171,11 +194,11 @@ Markdown使用一种和「[普通文本链接](http://blog.csdn.net/lanxuezaipia
 
 ![CSDN图标](http://imgtech.gmw.cn/attachement/jpg/site2/20111223/f04da22d7ba7105e1d7507.jpg "这是CSDN的图标")
 
-## <a name="t9"></a>几个问题探讨
+## 几个问题探讨
 
 下面针对Markdown插入图片的方式提出几个大家可能会问的问题，并根据自己的经验进行探讨解答。
 
-### <a name="t10"></a>问题1：图片上传和图片链接两种方式的区别
+### 问题1：图片上传和图片链接两种方式的区别
 
 不管是利用图片上传的方式还是图片链接的方式插入图片，最终形成的都是Markdown内部的图片链接语法，**因此两种方式在本质上是一样的。**
 
@@ -190,7 +213,7 @@ Markdown使用一种和「[普通文本链接](http://blog.csdn.net/lanxuezaipia
 
 可以看出在我们上传本地图片成功后，CSDN-markdown编辑器会将服务器上该图片的地址取出来，然后用Markdown图片链接的语法插入图片。因此我们在上传图片后，还可以在对应的Markdown内容上进行修改，加上图片描述和图片的title。
 
-### <a name="t11"></a>问题2：Markdown中如何指定图片的高和宽？
+### 问题2：Markdown中如何指定图片的高和宽？
 
 到目前为止， Markdown还没有办法指定图片的宽高，如果需要的话，**你可以使用普通的 <img> 标签，利用它的width和height属性来定制宽高。**
 
@@ -207,7 +230,7 @@ Markdown使用一种和「[普通文本链接](http://blog.csdn.net/lanxuezaipia
 
 ![CSDN图标](http://imgtech.gmw.cn/attachement/jpg/site2/20111223/f04da22d7ba7105e1d7507.jpg)
 
-### <a name="t12"></a>问题3：Markdown中如何指定图片的对齐方式？
+### 问题3：Markdown中如何指定图片的对齐方式？
 
 大家可能也注意到了，CSDN-markdown编辑器显示的图片默认都是左对齐，那能不能将其改为居中对齐或右对齐呢？
 
@@ -264,8 +287,14 @@ Markdown使用一种和「[普通文本链接](http://blog.csdn.net/lanxuezaipia
 
 **代码
 ```
+
 ![day01](Info-graphs/Day1.jpg) <!-- 说明 图片中不要含有空格 -->
 ![day02](Info-graphs/Day%202.jpg)  <!--  说明 图片名称中尽量有空格，如果有空格使用%20代替 -->
 ![Data Science Venn Diagram](figures/Data_Science_VD.png)\n
 <!-- ![Day%201.jpg](attachment:Day%201.jpg) --> <!--  说明 jupyter中 insert image相当于直接添加了附件会增加文件的大小（带附件的ipynb文件在github中可能无法读取图片而且无法在线编辑，使用markdown的隐藏代码或删除后，恢复正常>
+
 ```
+# youtube 视频链接
+
+
+<a href="https://www.youtube.com/watch?v=hUnRCxnydCc" target="_blank"><img src="https://raw.githubusercontent.com/marcotcr/lime/master/doc/images/video_screenshot.png" alt="KDD promo video"/>
